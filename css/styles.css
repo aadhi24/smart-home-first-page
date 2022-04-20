@@ -1,0 +1,121 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #5A37C3;
+    color: white;
+   
+   
+}
+h1 { 
+    font-family: 'Montserrat', sans-serif;
+     font-size: 3rem;  
+     line-height: 1.5;  
+     font-weight: 900;
+    }
+p{
+    color: #8f8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+    background-color: #5A37C3;
+} 
+
+.navbar{
+    padding:0px 0px 4.5rem 0px;
+    
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.download-btn{
+    margin : 10% 2%;
+}
+.nav-item{
+    padding: 0% 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+.phone{
+    position : absolute;
+    top:21%
+
+}
+#features{
+    padding: 7% 15%;
+    position:relative;
+    z-index: 1;
+   
+    
+}
+
+.features-box{
+    text-align: center;
+
+    padding: 5%;
+}
+.icon{
+    color: #F4E022;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: black;
+    
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #5A37C3;
+    color: white;
+}
+.product{
+    width: 18%;
+    border-radius: 100%;
+    margin: 5% 3%;
+}
+#press{
+    background-color: #5A37C3;
+    text-align: center;
+
+
+}
+.press-img{
+    width: 20%;
+    margin-left:2% ;
+    padding-bottom: 5%;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#pricing{
+    padding: 100px 200px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 2% 3%;
+}
+
+#cta{
+    text-align: center;
+}
+.btn-foot{
+    margin : 2% 1% ;
+}
+@media (max-width:1110PX ){
+    #title{
+        text-align: center;
+    }
+    .phone{
+        position: static;
+    }
+}
