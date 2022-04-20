@@ -35,6 +35,10 @@ p{
 .download-btn{
     margin : 10% 2%;
 }
+.download-btn2{
+    margin : 2% 1%;
+
+}
 .nav-item{
     padding: 0% 18px;
 }
@@ -118,4 +122,17 @@ p{
     .phone{
         position: static;
     }
+}
+#footer{
+    text-align: center;
+    margin : 5% auto 5% auto;
+}
+.social{
+   
+    margin: 0px 0.5% 1% 0.5%;
+}
+#cta{
+    background-color: #5A37C3;
+    color: white;
+    padding: 7% 4%;
 }
