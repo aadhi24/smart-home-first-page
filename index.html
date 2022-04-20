@@ -1,252 +1,138 @@
-<!DOCTYPE html>
-<html>
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
-<head>
-  <meta charset="utf-8">
-  <title>Smart Home</title>
-<!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
-
-  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
-
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="css/styles.css">
-  
-</head>
-
-<body>
-  <div class="container-fluid">
-
-  <section id="title">
-
-    <!-- Nav Bar -->
-    <nav class="navbar  navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="">Smart Home</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
-          </li>
-      </ul>
-   </div>
-  </nav>
-
-
-
-
-    <!-- Title -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h1>Your house controlled by your hand, think Smart.</h1>
-        <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
-        <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i> Download</button>
-      </div>
-
-      <div class="col-lg-6">
-        <img class="phone" src="images/home.png" alt="iphone-mockup">
-      </div>
-
-
-
-    </div>
-  </div>
-
+#title{
+    background-color: #5A37C3;
+    color: white;
    
+   
+}
+h1 { 
+    font-family: 'Montserrat', sans-serif;
+     font-size: 3rem;  
+     line-height: 1.5;  
+     font-weight: 900;
+    }
+p{
+    color: #8f8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+    background-color: #5A37C3;
+} 
 
-  </section>
-
-
-  <!-- Features -->
-
-  <section id="features">
+.navbar{
+    padding:0px 0px 4.5rem 0px;
     
-    <div class="row">
-      <div class="features-box col-lg-4" >
-        <i class="icon fas fa-check-circle fa-5x"></i>
-        <h3>Easy to use.</h3>
-        <p>So easy to control, you can brighted your life.</p>
-       </div>
+}
 
-      <div class="features-box col-lg-4" >
-        <i class="icon fas fa-bullseye fa-5x"></i>
-        <h3>Elite Clientele</h3>
-        <p>We have 24x7 support no worry.</p>
-        
-      </div>
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
 
-      <div class="features-box col-lg-4" >
-        <i class="icon fas fa-heart fa-5x"></i>
-        <h3>Guaranteed to work.</h3>
-        <p>We have more than 10 years experienced works or your money back.</p>
+.download-btn{
+    margin : 10% 2%;
+}
+.download-btn2{
+    margin : 2% 1%;
 
-        
-      </div>
-    </div>
-  
-
-  
+}
+.nav-item{
+    padding: 0% 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 
 
-  </section>
 
+}
+.phone{
+    position : absolute;
+    top:21%
 
-  <!-- Testimonials -->
-
-  <section id="testimonials">
-
-
-    <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="4000">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2>The house become smart and now obeys every word.Everthing is controlled, more often, by the smartphone and offer is Simple.</h2>
-          <img class = "product"src="images/lady-img.jpg" alt="dog-profile">
-          <em>Pebbles, New York</em>
-          
+}
+#features{
+    padding: 7% 15%;
+    position:relative;
+    z-index: 1;
+   
     
-        </div>
-        <div class="carousel-item">
-          <h2 class="testimonial-text">The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency.</h2>
-          <img class="product" src="images/tony.png" alt="lady-profile">
-          <em>Tony, Stark</em>
-          
-        </div>
-      
-      </div>
-     <button class="carousel-control-prev" type="button" data-target="#carouselControls" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-target="#carouselControls" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </button>
-    </div>
+}
 
+.features-box{
+    text-align: center;
+
+    padding: 5%;
+}
+.icon{
+    color: #F4E022;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: black;
+    
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #5A37C3;
+    color: white;
+}
+.product{
+    width: 18%;
+    border-radius: 100%;
+    margin: 5% 3%;
+}
+#press{
+    background-color: #5A37C3;
+    text-align: center;
+
+
+}
+.press-img{
+    width: 20%;
+    margin-left:2% ;
+    padding-bottom: 5%;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#pricing{
+    padding: 100px 200px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 2% 3%;
+}
+
+#cta{
+    text-align: center;
+}
+.btn-foot{
+    margin : 2% 1% ;
+}
+@media (max-width:1110PX ){
+    #title{
+        text-align: center;
+    }
+    .phone{
+        position: static;
+    }
+}
+#footer{
+    text-align: center;
+    margin : 5% auto 5% auto;
+}
+.social{
    
-
-   
-
-  </section>
-
-
-  <!-- Press -->
-
-  <section id="press">
-    <img class="press-img" src="images/ABB.jpg" alt="tc-logo">
-    <img class="press-img" src="images/leviton.jpg" alt="tnw-logo">
-    <img class="press-img" src="images/philips.png" alt="biz-insider-logo">
-    <img class="press-img" src="images/Legrand.jpg" alt="mashable-logo">
-
-  </section>
-
-
-  <!-- Pricing -->
-
-  <section id="pricing">
-
-
-
-    <h2>A Plan for your Smart home</h2>
-    <p>Simple and affordable price plans for your house.</p>
-
-  <div class="row">
-    <div class="pricing-col col-lg-4 col-md-6">
-      <div class="card">
-        <div class="card-header">
-          <h3>register</h3>
-        </div>
-        <div class = "card-body">
-          <h2>Free</h2>
-          <p>5 Matches Per Day</p>
-          <p>10 Messages Per Day</p>
-          <p>Unlimited App Usage</p>
-          <button class="btn btn btn-outline-secondary col-12" type="button" >Sign Up</button>   
-  
-        </div>
-      </div>
-
-    </div>
-
-    <div class="pricing-col col-lg-4 col-md-6 ">
-      <div class="card">
-        <div class="card-header">
-          <h3>prime</h3>
-  
-        </div>
-        <div class = "card-body">
-          <h2>$49 / mo</h2>
-          <p>Unlimited Matches</p>
-          <p>Unlimited Messages</p>
-          <p>Unlimited App Usage</p>
-          <button class="btn btn-dark btn-lg col-12" type="button" >Sign Up</button>
-        </div>
-      </div>
-      
-    </div>
-
-    <div class="pricing-col col-lg-4">
-      <div class="card">
-        <div class="card-header">
-          <h3>golden</h3>
-        </div>
-        <div class = "card-body">
-          <h2>$99 / mo</h2>
-          <p>Pirority Listing</p>
-          <p>Unlimited Matches</p>
-          <p>Unlimited Messages</p>
-          <p>Unlimited App Usage</p>
-          <button class="btn btn-dark btn-lg col-12" type="button" >Sign Up</button> 
-        </div>
-      </div>
-      
-    </div>
-
-  </div>
-
-
-
-  </section>
-
-
-  <!-- Call to Action -->
-
-  <section id="cta">
-
-    <h3>Find the True life .</h3>
-    <button class="btn btn-outline-success btn-foot" type="button">Download</button>
-    <button class="btn btn-outline-success btn-foot" type="button">Download</button>
-
-  </section>
-
-
-  <!-- Footer -->
-
-  <footer id="footer">
-
-    <p>© Copyright Smarthome</p>
-
-  </footer>
-
-
-</body>
-
-</html>
-
-
-
-
+    margin: 0px 0.5% 1% 0.5%;
+}
+#cta{
+    background-color: #5A37C3;
+    color: white;
+    padding: 7% 4%;
+}
